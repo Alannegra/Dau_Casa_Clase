@@ -20,10 +20,28 @@ public class JocDaus {
         return "Games\t" + "WIN!!!\t" + "lose" + "\n" +partidas + "\t"  + "\t" + win + "\t" + "\t" +  lose;
     }
 
+    void interfaz(){
+
+        System.out.println("  ___      _     ___     ___  \n" +
+                " |   \\    /_\\   |   \\   / _ \\ \n" +
+                " | |) |  / _ \\  | |) | | (_) |\n" +
+                " |___/  /_/ \\_\\ |___/   \\___/ " +
+                "                              ");
+        System.out.println("\t########################");
+        System.out.println("\t########1.PLAY.1########");
+        System.out.println("\t########2.SETT.2####");
+        System.out.println("\t########3.QUIT.3########");
+        System.out.println("\t########################");
+
+
+
+
+
+
+    }
+
     void jugar (){
         partidas++;
-        System.out.println();
-        System.out.println();
         if(dau1.metodoTirar() == dau2.metodoTirar() && dau1.metodoTirar() == dau3.metodoTirar()){
            win++;
         }else{
