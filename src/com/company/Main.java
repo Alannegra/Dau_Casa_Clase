@@ -6,9 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        Menu menu = new Menu();
-
+        MenuDado menuDado = new MenuDado();
+        Menu menu = new Menu(menuDado);
         menu.muestra();
 
 

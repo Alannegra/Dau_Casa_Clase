@@ -12,10 +12,10 @@ public class Menu {
 
 
 
-    public Menu() {
+    public Menu(MenuDado menuDado) {
 
-        this.jocDaus = new JocDaus();
-        this.menuDado= new MenuDado();
+        this.jocDaus = jocDaus;
+        this.menuDado= menuDado;
 
     }
 
@@ -43,7 +43,7 @@ public class Menu {
             case 3:
                 break;
             case 4:
-                System.out.println(jocDaus.toString());
+                System.out.println(menuDado.jocDaus.toString());
                 b = false;
                 break;
             default:

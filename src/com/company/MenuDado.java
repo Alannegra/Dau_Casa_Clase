@@ -10,6 +10,7 @@ public class MenuDado {
 
 
     void muestra() {
+        b = true;
         while (b) {
             jocDaus.interfaz();
 
@@ -19,12 +20,13 @@ public class MenuDado {
                 case 1:
                     jocDaus.interfaz();
                     jocDaus.jugar();
+
                     break;
                 case 2:
                     System.out.println("2");
                     break;
                 case 3:
-                    System.out.println(jocDaus.toString());
+                    //System.out.println(jocDaus.toString());
                     b = false;
                     break;
                 default:

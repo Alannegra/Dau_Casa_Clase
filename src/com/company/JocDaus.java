@@ -34,21 +34,21 @@ public class JocDaus {
         System.out.println("\t########################");
 
 
-
-
-
-
     }
 
     void jugar (){
         partidas++;
         if(dau1.metodoTirar() == dau2.metodoTirar() && dau1.metodoTirar() == dau3.metodoTirar()){
+
+
            win++;
+            System.out.println("Ganador");
         }else{
            lose++;
         }
 
-
+        System.out.print("\tdau=" + dau1.dau+ " dau=" + dau2.dau+" dau=" + dau3.dau);
+        System.out.println();
 
 
     }

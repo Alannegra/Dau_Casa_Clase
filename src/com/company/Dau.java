@@ -4,6 +4,7 @@ public class Dau {
 
     int caras = 6;
     int dau;
+
     //int tirades;
     //int[] freq = new int[12];
 
